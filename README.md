@@ -29,3 +29,21 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## API TODO Java Spring
+
+Un backend Spring Boot a été ajouté dans `todo-spring/` avec une API REST pour gérer les tâches.
+
+### Endpoints disponibles
+
+- `GET /api/tasks` : lister les tâches
+- `POST /api/tasks` : ajouter une tâche
+- `PUT /api/tasks/{id}` : modifier une tâche
+- `DELETE /api/tasks/{id}` : supprimer une tâche
+
+### Lancer le projet TODO
+
+```bash
+cd todo-spring
+mvn spring-boot:run
+```
